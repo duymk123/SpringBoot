@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BeansEndpointTabSettings">
+    <option name="showContexts" value="false" />
+    <option name="showFiles" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e892861d-9bd1-4bd7-8320-8e2d655ef33a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3CvCTHWN9myXSm2doPrOF6kGKaj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.duy_backend [clean].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.DuyBackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="DuyBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="duy_backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.duy_backend.DuyBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e892861d-9bd1-4bd7-8320-8e2d655ef33a" name="Changes" comment="" />
+      <created>1777256665398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777256665398</updated>
+      <workItem from="1777256667598" duration="2192000" />
+      <workItem from="1777298515729" duration="675000" />
+      <workItem from="1777516585970" duration="15971000" />
+      <workItem from="1777617561845" duration="12929000" />
+      <workItem from="1777696296539" duration="15526000" />
+      <workItem from="1777862449733" duration="336000" />
+      <workItem from="1777862838196" duration="7000" />
+      <workItem from="1777907938258" duration="4463000" />
+      <workItem from="1777986588246" duration="7230000" />
+      <workItem from="1778075997252" duration="12534000" />
+      <workItem from="1778221571155" duration="12067000" />
+      <workItem from="1778313857895" duration="13255000" />
+      <workItem from="1778404958702" duration="3092000" />
+      <workItem from="1778518430637" duration="1119000" />
+      <workItem from="1778554047381" duration="2631000" />
+      <workItem from="1778594417896" duration="9341000" />
+      <workItem from="1778677567942" duration="6426000" />
+      <workItem from="1778710846269" duration="16003000" />
+      <workItem from="1778766628938" duration="1577000" />
+      <workItem from="1778776880071" duration="2715000" />
+      <workItem from="1778813363186" duration="24000" />
+      <workItem from="1778814553803" duration="123000" />
+      <workItem from="1778814702712" duration="11000" />
+      <workItem from="1778814877739" duration="42000" />
+      <workItem from="1778885053861" duration="2659000" />
+      <workItem from="1778930185285" duration="6000" />
+      <workItem from="1778931452694" duration="3000" />
+      <workItem from="1778932423619" duration="241000" />
+      <workItem from="1778956835234" duration="52000" />
+      <workItem from="1778957308888" duration="29000" />
+      <workItem from="1778958781465" duration="56000" />
+      <workItem from="1778959749298" duration="90000" />
+      <workItem from="1778961038359" duration="135000" />
+      <workItem from="1778961236605" duration="11000" />
+      <workItem from="1778961666729" duration="30000" />
+      <workItem from="1778965039443" duration="11000" />
+      <workItem from="1779085482532" duration="234000" />
+      <workItem from="1779087277811" duration="146000" />
+      <workItem from="1779127667609" duration="51000" />
+      <workItem from="1779212688099" duration="2000000" />
+      <workItem from="1779280766916" duration="3269000" />
+      <workItem from="1779298593621" duration="1746000" />
+      <workItem from="1779359544679" duration="6952000" />
+      <workItem from="1779680121284" duration="600000" />
+      <workItem from="1779716488133" duration="31000" />
+      <workItem from="1779804986754" duration="554000" />
+      <workItem from="1779806404583" duration="3049000" />
+      <workItem from="1779811841673" duration="2757000" />
+      <workItem from="1779848332925" duration="12000" />
+      <workItem from="1779881521293" duration="4076000" />
+      <workItem from="1779936373404" duration="8000" />
+      <workItem from="1779953606408" duration="2815000" />
+      <workItem from="1780068829641" duration="4873000" />
+      <workItem from="1780113566672" duration="621000" />
+      <workItem from="1780114810250" duration="5103000" />
+      <workItem from="1780129104707" duration="7919000" />
+      <workItem from="1780188162330" duration="179000" />
+      <workItem from="1780190234249" duration="30000" />
+      <workItem from="1780299835234" duration="1265000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
