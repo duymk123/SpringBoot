@@ -5,12 +5,14 @@ import com.example.duy_backend.dto.request.ProductOfferingFilter;
 import com.example.duy_backend.dto.response.ProductOfferingRes;
 import com.example.duy_backend.entity.ProductOfferings;
 import jakarta.transaction.Transactional;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import com.example.duy_backend.service.ProductOfferingService;
 
@@ -20,6 +22,8 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/products")
+@Validated
+
 public class ProductOfferingController {
 
     private final ProductOfferingService productOfferingService;
@@ -126,7 +130,7 @@ public class ProductOfferingController {
 
     @Transactional
     @PostMapping       // CREATE data
-    public ResponseEntity<ProductOfferings> create(@RequestBody ProductOfferingCreateReq request) {
+    public ResponseEntity<ProductOfferings> create(@RequestBody @Valid ProductOfferingCreateReq request) {
         ProductOfferings product = productOfferingService.createProduct(request);
         return ResponseEntity.ok(product);
     }

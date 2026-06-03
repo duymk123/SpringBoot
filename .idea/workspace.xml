@@ -8,7 +8,53 @@
     <option name="showFiles" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e892861d-9bd1-4bd7-8320-8e2d655ef33a" name="Changes" comment="" />
+    <list default="true" id="e892861d-9bd1-4bd7-8320-8e2d655ef33a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/duy_backend/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/duy_backend/dto/request/UserRegisterReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d4eea9a2-7765-4c7a-baf9-a622a0115f8b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d4eea9a2-7765-4c7a-baf9-a622a0115f8b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/duy_backend/controller/ProductOfferingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/duy_backend/controller/ProductOfferingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/duy_backend/dto/request/ProductOfferingCreateReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/duy_backend/dto/request/ProductOfferingCreateReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/DuyBackendApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/common/StatusEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/config/ModelMapperConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/controller/ProductDetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/controller/ProductOfferingController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/controller/ProductOfferingController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/controller/ProductOfferingController$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/controller/ProductOfferingController$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/controller/ProductOfferingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/controller/ProductOfferingDetailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/dto/request/AssignProductDetailReq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/dto/request/ProductDetailCreateReq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/dto/request/ProductOfferingCreateReq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/dto/request/ProductOfferingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/dto/response/ProductOfferingRes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/entity/ProductDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/entity/ProductOfferingDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/entity/ProductOfferings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/repository/ProductDetailRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/repository/ProductOfferingDetailRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/repository/ProductOfferingRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/ProductDetailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/ProductOfferingDetailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/ProductOfferingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/impl/ProductDetailServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/impl/ProductOfferingDetailServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/impl/ProductOfferingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/spec/ProductOfferingSpecification$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/spec/ProductOfferingSpecification$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/spec/ProductOfferingSpecification$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/spec/ProductOfferingSpecification$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/spec/ProductOfferingSpecification$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/duy_backend/service/spec/ProductOfferingSpecification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/duy_backend/DuyBackendApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,9 +110,10 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;Spring Boot.DuyBackendApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -167,7 +214,12 @@
       <workItem from="1780129104707" duration="7919000" />
       <workItem from="1780188162330" duration="179000" />
       <workItem from="1780190234249" duration="30000" />
-      <workItem from="1780299835234" duration="1265000" />
+      <workItem from="1780299835234" duration="1690000" />
+      <workItem from="1780372515134" duration="30000" />
+      <workItem from="1780415068482" duration="356000" />
+      <workItem from="1780416408072" duration="2502000" />
+      <workItem from="1780419782980" duration="959000" />
+      <workItem from="1780466575292" duration="4521000" />
     </task>
     <servers />
   </component>
