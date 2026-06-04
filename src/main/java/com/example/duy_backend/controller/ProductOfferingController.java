@@ -128,7 +128,6 @@ public class ProductOfferingController {
     }
 
 
-    @Transactional
     @PostMapping       // CREATE data
     public ResponseEntity<ProductOfferings> create(@RequestBody @Valid ProductOfferingCreateReq request) {
         ProductOfferings product = productOfferingService.createProduct(request);
