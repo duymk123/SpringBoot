@@ -18,6 +18,8 @@ public class ProductOfferingCreateReq implements Serializable {
     private String name;
 
     private Long price;
+
+
     private String color;
 
 }

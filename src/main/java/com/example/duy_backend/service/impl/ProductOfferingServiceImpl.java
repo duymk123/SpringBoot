@@ -12,6 +12,7 @@ import jakarta.persistence.criteria.Predicate;
 import jakarta.persistence.criteria.Root;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -30,11 +31,11 @@ import java.util.Random;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class ProductOfferingServiceImpl implements ProductOfferingService {
 
     private final ProductOfferingRepo productOfferingRepo;
     private final EntityManager entityManager;
-
 
     @Override
     public ProductOfferings getById(Long id) {
@@ -51,8 +52,13 @@ public class ProductOfferingServiceImpl implements ProductOfferingService {
     @Override
     public Page<ProductOfferings> getAll(Integer pageSize, Integer pageNumber) {
 //        List<ProductOfferings>  productOfferings = productOfferingRepo.getAllByPage(pageSize, pageSize * (pageNumber -1));
-        Pageable pageable = PageRequest.of(pageNumber-1, pageSize, Sort.by("price").descending());
+        Pageable pageable = PageRequest.of(pageNumber - 1, pageSize, Sort.by("price").descending());
         Page<ProductOfferings> productOfferings = productOfferingRepo.findAll(pageable);
+        if (productOfferings.getSize() >= 100) {
+            log.info("Page empty because of size 0");
+            return Page.empty();
+        }
+            log.info("Get products successfully");
         return productOfferings;
     }
 
@@ -87,6 +93,7 @@ public class ProductOfferingServiceImpl implements ProductOfferingService {
         productOfferings.setPrice(request.getPrice());
         productOfferings.setColor(request.getColor());
         productOfferings.setStatus(StatusEnum.ACTIVE);
+        log.info("Create new product offering");
 //        ProductOfferings saveProduct = productOfferingRepo.save(productOfferings);
         return productOfferingRepo.save(productOfferings);
     }
@@ -97,6 +104,10 @@ public class ProductOfferingServiceImpl implements ProductOfferingService {
         getById(id); // Lấy ra id và xử lí validate
         productOfferings.setId(id); //Thiết lập luôn id của thằng PathVariable
         ProductOfferings saveProduct = productOfferingRepo.save(productOfferings);
+//        if (true) {
+//            log.error("test Rollback");
+//            throw new RuntimeException("Test xem @Transactional");
+//        }
         return saveProduct;
     }
 
@@ -105,23 +116,23 @@ public class ProductOfferingServiceImpl implements ProductOfferingService {
 //        Specification<ProductOfferings> specification = Specification.where(null);
         Specification<ProductOfferings> specification = Specification.where((root, query, criteriaBuilder) -> criteriaBuilder.conjunction());
 
-        if(productOfferingFilter.getName() != null && !productOfferingFilter.getName().isEmpty()) {
+        if (productOfferingFilter.getName() != null && !productOfferingFilter.getName().isEmpty()) {
             specification = specification.and(ProductOfferingSpecification.likeName(productOfferingFilter.getName()));
         }
 
-        if(productOfferingFilter.getMinPrice() != null){
+        if (productOfferingFilter.getMinPrice() != null) {
             specification = specification.and(ProductOfferingSpecification.minPrice(productOfferingFilter.getMinPrice()));
         }
 
-        if(productOfferingFilter.getMaxPrice() != null){
+        if (productOfferingFilter.getMaxPrice() != null) {
             specification = specification.and(ProductOfferingSpecification.maxPrice(productOfferingFilter.getMaxPrice()));
         }
 
-        if(productOfferingFilter.getColor() != null && !productOfferingFilter.getColor().isEmpty()) {
+        if (productOfferingFilter.getColor() != null && !productOfferingFilter.getColor().isEmpty()) {
             specification = specification.and(ProductOfferingSpecification.color(productOfferingFilter.getColor()));
         }
 
-        if(productOfferingFilter.getStatus() != null){
+        if (productOfferingFilter.getStatus() != null) {
             specification = specification.and(ProductOfferingSpecification.status(productOfferingFilter.getStatus()));
         }
         return productOfferingRepo.findAll(specification);

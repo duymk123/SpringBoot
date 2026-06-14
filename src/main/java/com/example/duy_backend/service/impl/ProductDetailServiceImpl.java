@@ -6,7 +6,6 @@ import com.example.duy_backend.repository.ProductDetailRepo;
 import com.example.duy_backend.service.ProductDetailService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -38,4 +37,6 @@ public class ProductDetailServiceImpl implements ProductDetailService {
         productDetail.setVideo(request.getVideo());
         return productDetailRepo.save(productDetail);
     }
+
+
 }

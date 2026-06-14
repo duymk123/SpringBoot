@@ -7,6 +7,7 @@ import com.example.duy_backend.entity.ProductOfferings;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/products")
 @Validated
+@Slf4j
 
 public class ProductOfferingController {
 
@@ -48,6 +50,7 @@ public class ProductOfferingController {
 
         ProductOfferingRes productOfferingRes = modelMapper.map(productOfferings, ProductOfferingRes.class);
 
+
 //        ProductOfferingRes productOfferingRes = new ProductOfferingRes();
 //        productOfferingRes.setId(productOfferings.getId());
 //        productOfferingRes.setName(productOfferings.getName());
@@ -62,8 +65,10 @@ public class ProductOfferingController {
     @GetMapping("/all")
     public ResponseEntity<List<ProductOfferingRes>> getAllProductOfferings(@RequestParam(name = "page_size") Integer pageSize,
                                                                            @RequestParam(name = "page_number") Integer pageNumber) {
+        log.info("Get by params page-size : {}, page-number: {} ", pageSize, pageNumber);
 
         List<ProductOfferings> productOfferings = productOfferingService.getAll(pageSize, pageNumber).getContent();
+        log.info("Get products successfully");
 
         List<ProductOfferingRes> productOfferingResList = modelMapper.map(productOfferings, new TypeToken<List<ProductOfferingRes>>() {
         }.getType());
@@ -130,7 +135,10 @@ public class ProductOfferingController {
 
     @PostMapping       // CREATE data
     public ResponseEntity<ProductOfferings> create(@RequestBody @Valid ProductOfferingCreateReq request) {
+        log.info("Create new product offering");
+
         ProductOfferings product = productOfferingService.createProduct(request);
+        log.info("Create new product offering successfully");
         return ResponseEntity.ok(product);
     }
 
